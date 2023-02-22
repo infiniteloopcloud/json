@@ -3,7 +3,7 @@ name: Go package
 on:
   push:
     tags:
-      - v*
+      - go*
     branches:
       - main
   pull_request:
