@@ -45,6 +45,8 @@ type OptionalsIsZero struct {
 
 	Azr alwayszero `json:"azr"`
 	Azo alwayszero `json:"azo,omitempty"`
+
+	PtrAzo *alwayszero `json:"ptrAzo,omitempty"`
 }
 
 var optionalsIsZeroExpected = `{
